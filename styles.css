@@ -64,3 +64,19 @@ h2+p {
 strong {
     font-weight: 900;
 }
+
+/* =================
+   Intro section 
+   ================= */
+
+.intro {
+    min-height: 50vh;
+    background-image: url(images/dark-ribs.jpg);
+    background-size: cover;
+    background-color: #404040;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 .5em 2em;
+}
